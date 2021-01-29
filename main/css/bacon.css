@@ -1,0 +1,78 @@
+body
+{
+  text-align: center;
+  padding: 0pt;
+  margin: 0pt;
+}
+
+#searchall, #searchkevin, #login
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 35%;
+}
+
+#banner, #logout
+{
+  text-align: left;
+  font-weight: bolder;
+  color: white;
+  background-color: #10100F;
+  border: 10px solid #10100F;
+}
+
+#banner img
+{
+  border-radius: 10%;
+}
+
+#list
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+#list tr:not(:first-child):nth-child(odd)
+{
+  background-color: ivory;
+}
+
+#list tr:not(:first-child):nth-child(even)
+{
+  background-color: lightgray;
+}
+
+#errMsg
+{
+  font-size: large;
+  font-weight: bolder;
+  color: red;
+}
+
+#w3c
+{
+  text-align: left;
+  background-color: #10100F;
+  border: 10px solid #10100F;
+}
+
+#uppermenu
+{
+  display: flex;
+  background-color: #10100F;
+  justify-content: space-between;
+}
+
+.toHide
+{
+  display: none;
+}
+
+.onCentre
+{
+  width: 100%;
+}
